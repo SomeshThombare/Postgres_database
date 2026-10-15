@@ -26,3 +26,7 @@ from basics.employees
 order by salary desc
 offset 3 ;
 
+select full_name, salary, department
+from basics.employees
+order by salary desc
+limit 3 offset 3;
