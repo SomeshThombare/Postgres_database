@@ -8,3 +8,8 @@ where department != 'HR' AND department != 'Finance';
 select full_name, salary, department
 from basics.employees
 where salary between 35000 and 45000;
+
+select full_name, salary, department
+from basics.employees
+where salary between 30000 and 40000
+ AND department = 'IT';
