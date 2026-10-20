@@ -25,3 +25,9 @@ SELECT *
 FROM basics.employees
 WHERE full_name ILIKE 'sam patil';
 
+
+select * from 
+basics.employees
+where full_name ILIKE 'sam patil' and department = 'IT';
+
+select * from basics.employees;;
